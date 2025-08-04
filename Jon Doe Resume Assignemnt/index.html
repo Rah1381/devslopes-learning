@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/js/scripts.js" defer></script>
   <title>Jon Doe's Resume</title>
 </head>
-<body>
-  <h1>Jon Doe</h1>
-  <h2>Talented Front End Developer</h2>
+<body class="fancy-body">
+  <h1 id="candidate-name">Jon Doe</h1>
+  <h2 id="candidate-desired-role">Talented Front End Developer</h2>
   <img src="./assets/avatars/fake_person.jpg" 
        alt="John Doe's Resume"
+       id="candidate-image"
   />
   <p>
-  <h2>About Me</h2>
+  <h2 id="about-me">About Me</h2>
+  <p class="candidate-bio">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus mollis lacus non eleifend. Etiam in ligula non ex mattis molestie. Donec pulvinar in mauris vel rutrum. Nunc eu ante consectetur diam imperdiet luctus sed quis lacus. Nullam faucibus augue odio, quis rutrum est vestibulum sed. Donec eget turpis vel.
-  <h2>My Skills</h2>
-  <ol>
+  </P>
+  <h2 id="skills">My Skills</h2>
+  <ol id="skills-list">
     <li>HTML</li>
     <li>CSS</li>
     <li>Java Script</li>
@@ -24,15 +29,15 @@
     <li>ReactJS</li>
     <li>NodeJS</li>
     </ol>
-    <h2>My Hobbies</h2>
-  <ul>
+    <h2 id="hobbies">My Hobbies</h2>
+  <ul id="hobbies-list">
     <li>Reading</li>
     <li>Sewing</li>
     <li>Gaming</li>
     <li>Music</li>
     </ul>
-    <h2>Contact Me</h2>
-    <table class="horizontal">
+    <h2 id="contacts">Contact Me</h2>
+    <table class="contacts-table">
     <tbody>
       <tr>
         <th>Discord</th>
@@ -52,5 +57,6 @@
       </tr> 
     </tbody>
     </table>
+    <script src="/scripts.js"></script>
 </body>
 </html>
