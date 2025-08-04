@@ -1,0 +1,132 @@
+/* Button styles */
+.btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 2rem;
+  background: linear-gradient(295deg, #c43232, #000000);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin: 10px 5px;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #48bb78, #38a169);
+  box-shadow: 0 4px 15px rgba(72, 187, 120, 0.3);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 6px 20px rgba(72, 187, 120, 0.4);
+}
+
+/* Base table styles */
+table {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+}
+
+/* Column group styling for consistent coloration */
+colgroup col:nth-child(odd) {
+  background-color: #fff;
+}
+
+colgroup col:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+/* Vertical table styles (default) */
+table.vertical {
+  width: 100%;
+}
+
+table.vertical thead {
+  background-color: #f5f5f5;
+}
+
+table.vertical th {
+  background-color: #e9e9e9;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px 16px;
+  border-bottom: 2px solid #333;
+}
+
+table.vertical tbody {
+  background-color: #fafafa;
+}
+
+table.vertical td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+table.vertical tbody tr:hover {
+  outline: 2px blue solid;
+}
+
+/* Horizontal table styles */
+table.horizontal {
+  width: auto;
+  display: inline-block;
+}
+
+/* Title row styles */
+td[colspan='4'],
+td[colspan='6'] {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: whitesmoke;
+  background-color: #222;
+}
+
+/* Header styles for horizontal table */
+table.horizontal th {
+  background-color: #e9e9e9;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 8px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Data cells in horizontal table */
+table.horizontal td {
+  padding: 8px 12px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Hover effect for horizontal table - highlights individual cells (representing parts of records) */
+table.horizontal td:hover,
+table.horizontal th:hover {
+  outline: 2px blue solid;
+}
+
+/* Remove borders from edges */
+table.horizontal td:last-child,
+table.horizontal th:last-child {
+  border-right: none;
+}
+
+table.horizontal tbody tr:last-child td {
+  border-bottom: none;
+}

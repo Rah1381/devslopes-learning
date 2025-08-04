@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images</title>
+  </head>
+  <body>
+    <h1>Images</h1>
+    <!-- The path is CORRECT -->
+    <img
+      src="https://picsum.photos/seed/picsum/150/100"
+      alt="Some correct path Image"
+    />
+
+    <!-- The path is INCORRECT -->
+    <img
+      src="https://picsum.photos/seed/picsum/150/100"
+      alt="Some incorrect path Image"
+    />
+
+    <!-- Huge image >3K from external resource (stackblitz doesn't support local images unfortunately) -->
+    <img
+      src="https://www.skyweaver.net/images/media/wallpapers/wallpaper1.jpg"
+      alt="Cool wallpaper"
+      width="600"
+      height="340"
+    />
+
+    <br />
+    <br />
+
+    <!-- Beautiful puppy -->
+    <img src="https://picsum.photos/id/237/200/300" alt="Beautiful puppy" />
+    <img src="https://picsum.photos/id/237/200/300" alt="Beautiful puppy" />
+    <img src="https://picsum.photos/id/237/200/300" alt="Beautiful puppy" />
+
+    <br />
+    <br />
+
+    <!-- Valid img usage as the content of other HTML elements -->
+
+    <!-- In a heading element -->
+    <h1>
+      <img src="https://picsum.photos/id/237/200/300" alt="Beautiful puppy" />
+    </h1>
+
+    <!-- In a paragraph -->
+    <p>
+      <img src="https://picsum.photos/id/237/200/300" alt="Beautiful puppy" />
+    </p>
+
+    <!-- In a link -->
+    <a href="https://google.com" target="_blank">
+      <img src="https://picsum.photos/id/237/200/300" alt="Beautiful puppy" />
+    </a>
+
+    <!-- In a list -->
+    <ul>
+      <li>
+        <img src="https://picsum.photos/id/237/200/300" alt="Beautiful puppy" />
+      </li>
+      <li>
+        <img src="https://picsum.photos/id/237/200/300" alt="Beautiful puppy" />
+      </li>
+      <li>
+        <img src="https://picsum.photos/id/237/200/300" alt="Beautiful puppy" />
+      </li>
+      <li>
+        <img src="https://picsum.photos/id/237/200/300" alt="Beautiful puppy" />
+      </li>
+    </ul>
+
+    <!-- In a table -->
+    <table>
+      <tr>
+        <td>
+          <img
+            src="https://picsum.photos/id/237/200/300"
+            alt="Beautiful puppy"
+          />
+        </td>
+        <td>
+          <img
+            src="https://picsum.photos/id/237/200/300"
+            alt="Beautiful puppy"
+          />
+        </td>
+        <td>
+          <img
+            src="https://picsum.photos/id/237/200/300"
+            alt="Beautiful puppy"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="https://picsum.photos/id/237/200/300"
+            alt="Beautiful puppy"
+          />
+        </td>
+        <td>
+          <img
+            src="https://picsum.photos/id/237/200/300"
+            alt="Beautiful puppy"
+          />
+        </td>
+        <td>
+          <img
+            src="https://picsum.photos/id/237/200/300"
+            alt="Beautiful puppy"
+          />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
